@@ -23,7 +23,7 @@ var app = express()
     next();
   })
 
-  .use(express.static('mod'))
+  .use(express.static('./mod'))
 
   .post('/', function (req, res) {
     var staffname = req.body.staffname;
