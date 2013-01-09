@@ -62,7 +62,7 @@ var app = express()
 
 
   .get('/admin', express.basicAuth(admin.chkpw), function (req, res) {
-    res.sendfile('admin.html');
+    res.sendfile('./admin.html');
   })
 
 
