@@ -1,7 +1,7 @@
 var http = require('http'),
   url = require('url'),
   userSession = false,
-  logger = require('logger').createLogger(),
+  logger = require('logger').createLogger(__dirname + '/history'),
   iptables = require('iptables'),
   denied = require('./denied');
 

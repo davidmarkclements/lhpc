@@ -2,7 +2,7 @@ var express = require('express'),
   http = require('http'),
   transProxy =  require('./transProxy'),
   admin = require('./admin'),
-  logger = require('logger').createLogger('sessions'),
+  logger = require('logger').createLogger(__dirname + '/sessions'),
   fs = require('fs');
 
 
@@ -23,7 +23,7 @@ var app = express()
     next();
   })
 
-  .use(express.static('./mod'))
+  .use(express.static(__dirname + '/mod'))
 
   .post('/', function (req, res) {
     var staffname = req.body.staffname;
@@ -62,7 +62,7 @@ var app = express()
 
 
   .get('/admin', express.basicAuth(admin.chkpw), function (req, res) {
-    res.sendfile('./admin.html');
+    res.sendfile(__dirname + '/admin.html');
   })
 
 
