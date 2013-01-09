@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width">	
+		<style>
+			body {font-size:2.15em;}
+			input, select {font-size:0.7em;margin-bottom:0.5em;}
+		</style>
+
+	</head>
+	<body>
+		<form method=post onsubmit="return v()">
+
+		Client Name:<br><input type=text name=clientname id=clientname><br>
+
+		Time (mins):<br><input type=text name=time id=range min=10 max=120 value=20 autofocus>
+		<br>
+
+		Password:<br><input type=password name=pw><br>
+
+		Staff name:<br><select name="staffname" id=staff>
+		<option>Etc</option>
+		</select><br>
+
+
+		<script>
+
+
+		function v() {
+		if (document.getElementById('clientname').value == "") {
+		alert('please provide a client name');
+		return false;
+		}
+		return true;
+		}
+		</script>
+
+		<input type=submit>
+		</form>
+
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	    <script>
+	    	$.getJSON('/staff', function (staff) {
+
+	    		staff = '<option>' + staff.join('</option><option>') + '</option>'.replace(/<option><\/option>/g, '');
+	    		$('#staff').html(staff);
+
+
+	    	})
+	    </script>
+
+
+	</body>
+
+</html>

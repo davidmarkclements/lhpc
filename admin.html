@@ -1,0 +1,36 @@
+<html>
+	<head>
+    	<meta name="viewport" content="width=device-width">	
+	</head>
+	<body>
+		<h1> Admin </h1>
+
+		<form action='/admin/addstaff' method=post>
+		<h2> Add/Update Staff </h2>		
+	    Staff Name: <input name=staffname><br>
+	    Staff PW: <input name=staffpw type=password><br>
+	    <input type=submit>
+	    </form>
+
+	    <form action='/admin/removestaff' method=post>
+	    	<h2>Remove Staff</h2>
+	    	Staff Name: <input name=staffname><br>
+	    	<input	type=submit>
+		</form>
+
+		<form action='/admin/changeadpw' method=post>
+	    <h2>Change Admin Password</h2>
+	    New Pass: <input name=newpw type=password><br>
+	    <input type=submit>
+	    </form>
+
+	    <h2>View Logs</h2>
+	    <a href='/admin/logs/sessions'> Authorised Sessions Log </a><br>
+	    <a href='/admin/logs/history'> Browsing History Log </a><br><br>
+	    <small style="display:block;width:260px"> To save space Browsing History is wiped at the beginning of each month, if you need a record 
+	    of the history before the 1st of next month, click Browsing History Log, and copy, paste and save it into 
+	    a file on your computer.  </small>
+
+
+	</body>
+</html>

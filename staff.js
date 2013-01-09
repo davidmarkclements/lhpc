@@ -1,0 +1,1 @@
+module.exports = {"Darren Beggs":"½£\f¨#¯K\u0019\u0007p","Davy Daly":"O´å¿&î\u0007Ò"}

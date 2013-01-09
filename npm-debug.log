@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /home/dave/Projects/LHPC/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /root/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz
+14 verbose folder .
+15 info prepublish kioskaccesssystem@0.0.0
+16 silly lockFile 88a704f0-26494-0-7253094394691288-tmp-tgz /root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz
+17 verbose lock /root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz /root/.npm/88a704f0-26494-0-7253094394691288-tmp-tgz.lock
+18 silly lockFile 88a704f0-26494-0-7253094394691288-tmp-tgz /root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz
+19 verbose tar unpack /root/tmp/npm-6425/1357738926494-0.7253094394691288/tmp.tgz
+20 silly lockFile e33bb3b8-26494-0-7253094394691288-package /root/tmp/npm-6425/1357738926494-0.7253094394691288/package
+21 verbose lock /root/tmp/npm-6425/1357738926494-0.7253094394691288/package /root/.npm/e33bb3b8-26494-0-7253094394691288-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+27 silly gunzTarPerm extractEntry admin.js
+28 silly gunzTarPerm modified mode [ 'admin.js', 436, 420 ]
+29 silly gunzTarPerm extractEntry adpw.js
+30 silly gunzTarPerm modified mode [ 'adpw.js', 436, 420 ]
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+33 silly gunzTarPerm extractEntry staff.js
+34 silly gunzTarPerm modified mode [ 'staff.js', 436, 420 ]
+35 silly gunzTarPerm extractEntry adpw.json
+36 silly gunzTarPerm modified mode [ 'adpw.json', 436, 420 ]
+37 silly gunzTarPerm extractEntry lh.png
+38 silly gunzTarPerm modified mode [ 'lh.png', 436, 420 ]
+39 silly gunzTarPerm extractEntry mod/index.html~
+40 silly gunzTarPerm modified mode [ 'mod/index.html~', 436, 420 ]
+41 silly gunzTarPerm extractEntry mod/index.html
+42 silly gunzTarPerm modified mode [ 'mod/index.html', 436, 420 ]
+43 silly gunzTarPerm extractEntry history
+44 silly gunzTarPerm modified mode [ 'history', 436, 420 ]
+45 silly gunzTarPerm extractEntry admin.html
+46 silly gunzTarPerm modified mode [ 'admin.html', 438, 420 ]
+47 silly gunzTarPerm extractEntry transProxy/denied.js
+48 silly gunzTarPerm modified mode [ 'transProxy/denied.js', 436, 420 ]
+49 silly gunzTarPerm extractEntry transProxy/index.js
+50 silly gunzTarPerm modified mode [ 'transProxy/index.js', 436, 420 ]
+51 silly gunzTarPerm extractEntry sessions
+52 silly gunzTarPerm modified mode [ 'sessions', 436, 420 ]
+53 verbose read json /root/tmp/npm-6425/1357738926494-0.7253094394691288/package/package.json
+54 silly lockFile e33bb3b8-26494-0-7253094394691288-package /root/tmp/npm-6425/1357738926494-0.7253094394691288/package
+55 verbose from cache /root/tmp/npm-6425/1357738926494-0.7253094394691288/package/package.json
+56 verbose tar pack [ '/root/.npm/kioskaccesssystem/0.0.0/package.tgz',
+56 verbose tar pack   '/root/tmp/npm-6425/1357738926494-0.7253094394691288/package' ]
+57 verbose tarball /root/.npm/kioskaccesssystem/0.0.0/package.tgz
+58 verbose folder /root/tmp/npm-6425/1357738926494-0.7253094394691288/package
+59 silly lockFile 961f662b-skaccesssystem-0-0-0-package-tgz /root/.npm/kioskaccesssystem/0.0.0/package.tgz
+60 verbose lock /root/.npm/kioskaccesssystem/0.0.0/package.tgz /root/.npm/961f662b-skaccesssystem-0-0-0-package-tgz.lock
+61 silly lockFile 961f662b-skaccesssystem-0-0-0-package-tgz /root/.npm/kioskaccesssystem/0.0.0/package.tgz
+62 silly lockFile ab478154--kioskaccesssystem-0-0-0-package /root/.npm/kioskaccesssystem/0.0.0/package
+63 verbose lock /root/.npm/kioskaccesssystem/0.0.0/package /root/.npm/ab478154--kioskaccesssystem-0-0-0-package.lock
+64 silly lockFile ab478154--kioskaccesssystem-0-0-0-package /root/.npm/kioskaccesssystem/0.0.0/package
+65 verbose tar unpack /root/.npm/kioskaccesssystem/0.0.0/package.tgz
+66 silly lockFile ab478154--kioskaccesssystem-0-0-0-package /root/.npm/kioskaccesssystem/0.0.0/package
+67 verbose lock /root/.npm/kioskaccesssystem/0.0.0/package /root/.npm/ab478154--kioskaccesssystem-0-0-0-package.lock
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm extractEntry admin.js
+72 silly gunzTarPerm extractEntry adpw.js
+73 silly gunzTarPerm extractEntry index.js
+74 silly gunzTarPerm extractEntry staff.js
+75 silly gunzTarPerm extractEntry adpw.json
+76 silly gunzTarPerm extractEntry mod/index.html~
+77 silly gunzTarPerm extractEntry mod/index.html
+78 silly gunzTarPerm extractEntry history
+79 silly gunzTarPerm extractEntry admin.html
+80 silly gunzTarPerm extractEntry transProxy/denied.js
+81 silly gunzTarPerm extractEntry transProxy/index.js
+82 silly gunzTarPerm extractEntry lh.png
+83 silly gunzTarPerm extractEntry sessions
+84 verbose read json /root/.npm/kioskaccesssystem/0.0.0/package/package.json
+85 silly lockFile ab478154--kioskaccesssystem-0-0-0-package /root/.npm/kioskaccesssystem/0.0.0/package
+86 silly shasum updated bytes 40960
+87 silly shasum updated bytes 9670
+88 info shasum d66ab30bc40627decf79a4d868d62ff6f3a1ff31
+88 info shasum /root/.npm/kioskaccesssystem/0.0.0/package.tgz
+89 verbose from cache /root/.npm/kioskaccesssystem/0.0.0/package/package.json
+90 verbose chmod /root/.npm/kioskaccesssystem/0.0.0/package.tgz 644
+91 verbose chown /root/.npm/kioskaccesssystem/0.0.0/package.tgz [ 0, 0 ]
+92 silly lockFile 3a52ce78- .
+93 silly publish { name: 'kioskaccesssystem',
+93 silly publish   version: '0.0.0',
+93 silly publish   description: 'A simple way to control user access from a web kiosk, with a management section to aminister "staff" (users who can disable/enable web access for "clients") and view logs',
+93 silly publish   main: 'index.js',
+93 silly publish   dependencies:
+93 silly publish    { connect: '~2.7.2',
+93 silly publish      iptables: '~0.0.4',
+93 silly publish      logger: '~0.0.1',
+93 silly publish      express: '~3.0.6' },
+93 silly publish   devDependencies: {},
+93 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+93 silly publish   repository: '',
+93 silly publish   author: { name: 'David Mark Clements' },
+93 silly publish   license: 'BSD',
+93 silly publish   readme: 'This tool was created for a homeless hostel where I used to work, \nbut could be applied in various scenarios. \n\nIt allows staff (who have accounts - simple un and pw) to enable/disable\ninternet access for a given amount of time. \n\nIt must be used with a browser whose proxy settings are set to localhost 9000 for\nhttp and https. \n\nWhen it is run (node kioskaccesssystem after npm install), port 80 and port 443\nbecome blocked. \n\nWhen the browser attempts to access the internet, a denied message is supplied (transparently via localhost:9000)\n\nThe system provides a control interface on port 3000, so locally at localhost:3000\nor it\'s IP address (e.g. 192.168.1.64:3000). This can be used to enable the web. \n\nAt this point port 80 and 443 are unblocked, and the tool acts as transparent proxy\nrecording browsing history. ',
+93 silly publish   readmeFilename: 'README.md',
+93 silly publish   _id: 'kioskaccesssystem@0.0.0',
+93 silly publish   dist: { shasum: 'd66ab30bc40627decf79a4d868d62ff6f3a1ff31' } }
+94 error need auth auth and email required for publishing
+94 error need auth You need to authorize this machine using `npm adduser`
+95 error System Linux 3.5.0-21-generic
+96 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+97 error cwd /home/dave/Projects/LHPC
+98 error node -v v0.8.16
+99 error npm -v 1.1.69
+100 error code ENEEDAUTH
+101 verbose exit [ 1, true ]

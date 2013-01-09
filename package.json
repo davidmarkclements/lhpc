@@ -1,0 +1,19 @@
+{
+  "name": "kioskaccesssystem",
+  "version": "0.0.0",
+  "description": "A simple way to control user access from a web kiosk, with a management section to aminister \"staff\" (users who can disable/enable web access for \"clients\") and view logs",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "~2.7.2",
+    "iptables": "~0.0.4",
+    "logger": "~0.0.1",
+    "express": "~3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "David Mark Clements",
+  "license": "BSD"
+}
